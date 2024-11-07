@@ -18,6 +18,3 @@ jobs:
 
       - name: Run Gitleaks
         uses: zricethezav/gitleaks-action@v2.1.0
-        with:
-          config: .gitleaks.toml  # Optional: Path to a custom Gitleaks config file in your repo
-          verbose: true           # Optional: Set to true to see detailed scan output
